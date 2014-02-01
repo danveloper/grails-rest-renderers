@@ -5,7 +5,10 @@ grails.project.dependency.resolver = "maven"
 grails.project.dependency.resolution = {
   inherits("global") {}
   log "warn"
-  repositories { grailsCentral() }
+  repositories {
+    grailsCentral()
+    mavenCentral()
+  }
   dependencies {}
   plugins {
     build(":release:3.0.1",
