@@ -4,7 +4,7 @@ import org.codehaus.groovy.grails.commons.GrailsApplication
 import org.springframework.context.ApplicationContext
 
 class GrailsRestRenderersGrailsPlugin {
-  def version = "0.1"
+  def version = "0.5-RC1"
   def grailsVersion = "2.3 > *"
   def pluginExcludes = ["grails-app/views/error.gsp"]
 
