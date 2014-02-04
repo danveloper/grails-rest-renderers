@@ -9,8 +9,6 @@ class GrailsRestRenderersGrailsPlugin {
   def pluginExcludes = ["grails-app/views/error.gsp"]
 
   def title = "REST Renderers Plugin"
-  def author = "Your name"
-  def authorEmail = ""
   def description = '''\
 This plugin allows for a more-streamlined approach to developing RESTful renderers in Grails 2.3+. The plugin
 uses the underlying Rendering framework in Grails 2.3 to provide developers with an opportunity to maximize
