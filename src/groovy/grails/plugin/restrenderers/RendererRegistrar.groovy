@@ -4,7 +4,6 @@ import grails.rest.render.ContainerRenderer
 import grails.rest.render.RenderContext
 import grails.rest.render.Renderer
 import grails.rest.render.RendererRegistry
-import groovy.util.logging.Log4j
 import org.codehaus.groovy.grails.commons.GrailsApplication
 import org.codehaus.groovy.grails.web.mime.MimeType
 import org.springframework.beans.factory.InitializingBean
@@ -14,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired
  * User: danielwoods
  * Date: 1/31/14
  */
-@Log4j
 class RendererRegistrar implements InitializingBean {
   @Autowired
   RendererRegistry registry

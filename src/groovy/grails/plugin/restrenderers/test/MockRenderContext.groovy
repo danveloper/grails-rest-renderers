@@ -43,7 +43,7 @@ class MockRenderContext extends AbstractRenderContext {
     this.locale = locale
   }
 
-  public String getText() {
+  String getText() {
     this.writer.toString()
   }
 

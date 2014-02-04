@@ -33,10 +33,10 @@ renderers with a mock RenderingContext.
     reload event
   }
 
-  private static def reload(event) {
-    def ctx = (ApplicationContext) event.ctx
+  private static void reload(event) {
+    ApplicationContext ctx = event.ctx
     RendererRegistrar registrar = ctx.getBean(RendererRegistrar)
-    def renderers = (ctx.getBeansOfType(ObjectRenderer)?.values() ?: []) as ObjectRenderer[]
+    ObjectRenderer[] renderers = (ctx.getBeansOfType(ObjectRenderer)?.values() ?: [])
     registrar.reloadConfig((GrailsApplication) event.application, renderers)
     registrar.afterPropertiesSet()
   }
