@@ -6,7 +6,7 @@ The _REST Renderers Plugin_ for Grails provides some simplifications to the extr
 Installing
 ----
 
-To use the plugin code within your application, simply add the following line to your `BuildConfig.groovy`'s `plugins` closure: `compile ":grails-rest-renderers:0.5-RC1"`. If you are a plugin developer and are interested in helping with the development of this plugin, please see the example application located within the `test/projects` directory for details on how to inline the plugin code.
+To use the plugin code within your application, simply add the following line to your `BuildConfig.groovy`'s `plugins` closure: `compile ":grails-rest-renderers:0.5.1-RC1"`. If you are a plugin developer and are interested in helping with the development of this plugin, please see the example application located within the `test/projects` directory for details on how to inline the plugin code.
 
 Getting Started
 ---
