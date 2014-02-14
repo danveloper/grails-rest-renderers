@@ -66,6 +66,7 @@ class RendererRegistrar implements InitializingBean {
     }
 
     void render(Object object, RenderContext context) {
+      context.contentType = mimeType.name
       callable.call object, context
     }
 
