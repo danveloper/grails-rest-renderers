@@ -237,7 +237,7 @@ Basically, the `MockRenderContext` will allow you to inspect the textual represe
 License
 ---
 
-Still trying to work this out.
+This code is licensed under the [WTFPL free software license](http://www.wtfpl.net/about/). See [LICENSE](LICENSE) for complete license detail.
 
 Contact
 ---
